@@ -9,6 +9,7 @@ public class WinGameManager : MonoBehaviour
     void Start ()
     {
         winPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     private void OnTriggerEnter ( Collider other )
