@@ -3,8 +3,8 @@
 public class PlayerControllerX : MonoBehaviour
 {
     public float speed = 0.5f;
-    public float rotationSpeed = 25f;
-    public float verticalInput;
+    public float rotationSpeed = 50f;
+    public float verticalInput; 
 
     private Rigidbody rb;
     private bool haColisionado = false;
